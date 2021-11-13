@@ -1,0 +1,24 @@
+.block2 {
+    text-align: center;
+    border: 2mm ridge #80ED99;
+    width: 60%;
+    background: rgba(234, 234, 236, 0.336);
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+table {
+    font-size: 18px;
+    color: #0f0f0fce;
+}
+
+hr{
+    border-width: 0;
+}

@@ -1,0 +1,57 @@
+h1 {
+    padding-top: 20px;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+input {
+    font-family: 'Merriweather', serif;
+    border: 1px solid rgba(0, 2, 12, 0.897);
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: #FFF3E4;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 0;
+    padding: 10px 20px;
+    width: 50%;
+    margin-right: 20px;
+}
+
+.new {
+    background-color: #C1FFD7;
+}
+
+.button {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.button:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.button:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
